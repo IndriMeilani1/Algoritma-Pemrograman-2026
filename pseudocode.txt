@@ -1,0 +1,17 @@
+ALGORITMA Menentukan_Jenis_Segitiga
+
+INPUT a, b, c
+
+IF a + b <= c OR a + c <= b OR b + c <= a THEN
+    OUTPUT "Bukan segitiga"
+ELSE
+    IF a = b AND b = c THEN
+        OUTPUT "Segitiga sama sisi"
+    ELSE IF a = b OR a = c OR b = c THEN
+        OUTPUT "Segitiga sama kaki"
+    ELSE
+        OUTPUT "Segitiga sembarang"
+    END IF
+END IF
+
+SELESAI
